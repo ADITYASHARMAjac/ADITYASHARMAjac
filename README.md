@@ -56,7 +56,7 @@ My technical interests span:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" width="48"/>
 </p>
 
-`FastAPI` · `Node.js` · `REST APIs` · `PostgreSQL` · `SQLAlchemy`
+`FastAPI` ·  `PostgreSQL` · `SQLAlchemy`
 
 ---
 
@@ -65,7 +65,7 @@ My technical interests span:
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" width="48"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" height="48" alt="scikit-learn"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48"/>
 </p>
@@ -81,6 +81,7 @@ My technical interests span:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48"/>
+<img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" height="48" alt="Oracle Cloud"/>
 </p>
 
 `Docker` · `Linux` · `Git` · `GitHub` · `Oracle Cloud`
@@ -96,32 +97,78 @@ My technical interests span:
 
 </p>
 
-`Postman` · `Streamlit` · `JWT` · `OAuth 2.0`
+`Postman` · `Streamlit` 
 
 ---
 
-# 💼 Featured Engineering Projects
+## 🧠 InsightRAG: Document Q&A with LLMs *(AI Engineer)*
 
-## 🎮 BATTLEX — Tournament Platform
-
-A full-stack tournament registration platform designed around a **FastAPI backend and PostgreSQL database**.
+A retrieval-augmented generation system that answers questions over private documents, with cited sources and evaluation built in.
 
 **Architecture**
 
 ```text
-Client
+User Query
   │
   ▼
-Streamlit Frontend
+FastAPI Gateway
+  │
+  ├── Query Rewriting
+  ├── Hybrid Retrieval (BM25 + Vector Search)
+  ├── Reranker
+  └── LLM Generation + Citations
   │
   ▼
-FastAPI REST API
-  │
-  ├── JWT Authentication
-  ├── User Management
-  ├── Tournament Management
-  ├── Registration System
-  └── Payment Integration
+Vector DB (FAISS / pgvector)  ◄──  Ingestion Pipeline
+                                   (Parse → Chunk → Embed)
+```
+
+**Highlights**
+- Hybrid retrieval with reranking to improve answer relevance
+- Evaluation harness for retrieval recall and answer faithfulness
+- Streaming responses, caching, and request tracing
+
+**Stack:** `Python` `FastAPI` `LangChain/LlamaIndex` `pgvector` `Docker`
+
+---
+
+## Satelite: End-to-End ML Pipeline *(AI/ML)*
+
+A production-style ML workflow covering training, tracking, deployment, and monitoring.
+
+**Architecture**
+
+```text
+Raw Data
   │
   ▼
-PostgreSQL
+Feature Pipeline (Pandas / scikit-learn)
+  │
+  ▼
+Training + Hyperparameter Tuning (XGBoost / PyTorch)
+  │
+  ▼
+Experiment Tracking (MLflow)
+  │
+  ▼
+Model Registry ──► FastAPI Inference Service ──► Drift Monitoring
+```
+
+**Highlights**
+- Reproducible pipelines with versioned data and models
+- Cross-validation, calibration, and error analysis
+- Containerized inference API with health checks
+
+**Stack:** `Python` `scikit-learn` `PyTorch` `MLflow` `Docker` `GitHub Actions`
+
+---
+
+
+
+**Highlights**
+- Redis caching for low-latency redirects
+- Token-bucket rate limiting per user and IP
+- Async workers for analytics so redirects stay fast
+- Load-tested with Locust, with documented results
+
+**Stack:** `FastAPI` `PostgreSQL` `Redis`  `Docker` `pytest`
