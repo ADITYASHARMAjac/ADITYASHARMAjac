@@ -1,81 +1,127 @@
-# 👋 I'm Aditya Sharma
+<div align="center">
 
-### Backend Engineer • ML Engineer • AI/ML Research Enthusiast
+# 👋 Hi, I'm Aditya Sharma
 
----
+### Backend Engineer · AI/ML Engineer · Systems & Software Developer
 
-## 🚀 About Me
+Building scalable backend systems, intelligent applications, and production-oriented software.
 
-- 🔭 Currently building: **Scalable backend systems, REST APIs, and ML projects**
-- 🌱 Currently learning: **Machine Learning, Deep Learning, System Design, Docker & Cloud**
-- 🧠 Interested in: **AI/ML Research, Backend Engineering, Distributed Systems**
-- 💻 Practicing: **DSA, LeetCode & Competitive Programming**
-- 🛠️ Building: **FastAPI + PostgreSQL + Docker based applications**
-- 📫 Reach me: **your-email@gmail.com**
-
----
-
-## 🌐 Connect With Me
+<br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_USERNAME)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+
+</div>
 
 ---
 
-# 💻 Tech Stack
+## 🚀 About
+
+I design and build **backend systems, APIs, data-driven applications, and machine learning solutions** with a focus on performance, scalability, security, and clean architecture.
+
+My technical interests span:
+
+- ⚙️ Backend Engineering & API Architecture
+- 🏗️ Scalable & Distributed Systems
+- 🤖 Machine Learning & Deep Learning
+- 🗄️ Database Engineering
+- ☁️ Cloud Infrastructure & DevOps
+- 🔐 Authentication & Application Security
+- 🧠 Data Structures & Algorithms
+
+---
+
+## 🛠️ Technology Stack
 
 ### Languages
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="48"/>
+</p>
 
-### Backend
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-
-### Machine Learning / AI
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
-### DevOps / Cloud
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+`Python` · `Java` · `JavaScript` · `SQL`
 
 ---
 
-# 🧠 What I'm Working On
+### Backend & APIs
+
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" width="48"/>
+</p>
+
+`FastAPI` · `Node.js` · `REST APIs` · `PostgreSQL` · `SQLAlchemy`
+
+---
+
+### AI / Machine Learning
+
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48"/>
+</p>
+
+`NumPy` · `Pandas` · `Scikit-Learn` · `TensorFlow` · `Keras`
+
+---
+
+### Cloud, DevOps & Engineering
+
+<p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48"/>
+</p>
+
+`Docker` · `Linux` · `Git` · `GitHub` · `Oracle Cloud`
+
+---
+
+### Development & API Tools
+
+<p>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" width="48"/>
+
+</p>
+
+`Postman` · `Streamlit` · `JWT` · `OAuth 2.0`
+
+---
+
+# 💼 Featured Engineering Projects
+
+## 🎮 BATTLEX — Tournament Platform
+
+A full-stack tournament registration platform designed around a **FastAPI backend and PostgreSQL database**.
+
+**Architecture**
 
 ```text
-Backend Engineering
-├── FastAPI
-├── PostgreSQL
-├── REST APIs
-├── Authentication / JWT
-├── Microservices
-└── System Design
-
-Machine Learning
-├── NumPy
-├── Pandas
-├── Scikit-Learn
-├── Deep Learning
-├── CNN
-└── NLP
-
-Computer Science
-├── Data Structures & Algorithms
-├── LeetCode
-├── Competitive Programming
-└── Operating Systems
+Client
+  │
+  ▼
+Streamlit Frontend
+  │
+  ▼
+FastAPI REST API
+  │
+  ├── JWT Authentication
+  ├── User Management
+  ├── Tournament Management
+  ├── Registration System
+  └── Payment Integration
+  │
+  ▼
+PostgreSQL
